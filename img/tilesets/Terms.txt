@@ -1,0 +1,9 @@
+https://rpgmaker-mv.de/forum/thread/17-maru-s-mv-ressourcen/
+
+These resources are created for RPG Maker MV by Kadokawa. You need to own a legal licence for this particular RPG Maker.
+You are only allowed to use these ressurces in your RPG Maker projects. The resources are build upon the original Run Time Package (RTP) - therefore they are "edits" and all creative rights belong to Enterbrain/Kadokawa.
+
+- Resources are free to use, but you must credit PandaMaru.
+- You are free to alter the resources for your own purpose.
+- If you alter or build upon the material, you must distribute your contributions under the same license as the original.
+- Please don't repost resources, link back to this thread or my homepage.
