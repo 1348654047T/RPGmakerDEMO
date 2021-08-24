@@ -1,0 +1,397 @@
+observe
+instanttraining
+allowdiplo 外交无条件，可无条件宣战 
+yesman 对方答应任何外交要求，如签条约加派系等
+civilwar communism USA
+civilwar Fascism
+civilwar democratic
+instant_prepare 迅速完成海军入侵准备
+
+research_on_icon_click 研究目标(需点击对应科技图标)科技迅速完成
+Focus.AutoComplete 所点击的国家焦点立即完成，注意如果使用时已经选择了国家焦点则无效，必须等当前国家焦点完成后使用
+wp [国家TAG] 与指定tag的国家无条件和平/停战
+
+show_ enemy_ ships显示敌方船只
+bypass_ invasion_ super iority_ check无视制海权进行海军入侵
+
+debug spy
+
+ale # 增加“所有”高级装备(默认10000)
+
+Operation.Instan秒完成任务
+agency.instantslotunlock瞬间解锁特工槽
+agency.autocomplete瞬间升级情 报部门
+agency.keepexcessoperatives这 个应该是保持特工活动
+prevent_.operati ve_ detection 你的间谍行动永远不会被发现
+force_ operat ive_ detection 你的间谍菜的抠脚，每次都能被发现
+resistance数字-抵抗值
+
+
+1、tdebug 输入后显示鼠标停留地的国家代码以及省份代码
+
+2、annex(空格)(国家代码) 直接吞并该国家 例：annex jap 吞并日本
+
+3、tag(空格)(国家代码) 切换所控制的国家，如果玩到一半想换一个国家玩可以使用此代码，如想玩法国输入tag fra
+
+4、delall(空格)(国家代码) 删除指定国家所有的军队和舰队
+
+5、add_core(省份代码) 添加该省份为我国核心，可作为宣战理由
+
+6、remove_core(省份代码)去除省份核心
+
+7、research complete 第一个研发槽的科技研发完成    
+
+8、research all 所有科技研发完成
+
+9、manpower 增加10M人力
+
+10、XP 三军经验各加500
+
+11、PP 加999政治力量
+
+12、nu(空格)(数字)加国家凝聚力，不输数字则无效果
+
+13、threat(空格)(数字)世界紧张度增加(玩家导致)，最好别用，会被所有国家仇视
+
+14、fow 去除战争迷雾
+
+15、tp 开启后部队瞬间移动，选择部队然后右键点击即可瞬间移动，可以将部队瞬移到敌国，免去了登陆和空降
+
+16、Focus.AutoComplete 所点击的国家焦点立即完成，注意如果使用时已经选择了国家焦点则无效，必须等当前国家焦点完成后使用
+
+17、instantconstruction 建筑瞬间建造，建造界面点击地点即可建造
+
+18、allowdiplo 外交无条件，可无条件宣战
+
+19、yesman 对方答应任何外交要求，如签条约加派系等
+
+20、debug_nuking 可在任意省份丢核弹，无论你有没有核弹对方是否交战，不过这种方法的核弹丢了和没丢一样，炸不死军队
+
+21、winwars 给你所参加的战争增加最大进度，然而没啥用，对方死不投降，还是要继续打
+
+22、time 查看系统时间
+
+23、nextsong 换下一首配乐
+
+24、event(空格)(事件代码)执行该事件，由于事件代码不清楚所以用处不大
+
+25、resign 退出游戏
+
+26、fullscreen 全屏
+
+yesman 电脑会无条件接受外交需求
+
+xp # 玩家获得海陆空三军指定数量的经验
+
+winwars 所有战争获得胜利(最大分数)
+
+tdebug 显示国家TAG及省份ID
+
+wp [国家TAG] 与指定tag的国家无条件和平/停战
+
+tp [省份ID] 传送选中的军队或舰队到目标id省份
+
+tag [国家TAG] 更换当前控制的国家) 示例：tag USA
+
+spawn [子单位类型] [省id] # 增加单位到指定的省份 (#为数量)
+
+setowner [国家TAG] [地区id]设置指定的国家区域归属
+
+setcontroller [国家TAG] [省id] 设置省份控制权归属
+
+research_on_icon_click 研究目标(需点击对应科技图标)科技迅速完成
+
+research all 所有科技研发完成
+
+pp # + 玩家PP
+
+observe(spectator) 切换至观测者模式
+
+nuke # 增加指定数量核弹
+
+nu # 增加国家凝聚力(#为数字)
+
+manpower # 增加指定数量人力(默认为10M)
+
+ic 快速建造
+
+instant_prepare 迅速完成海军入侵准备
+
+help [command name] 显示当前作弊码帮助信息
+
+Focus.AutoComplete 目标(所点击)国家焦点快速完成
+
+event [event id] [目标国家TAG] (目标国家)执行指定id的时间
+
+debug_nuking 可对所有省份无条件发射核弹
+
+civilwar [意识形态] [目标国家TAG] 瞬间爆发内战(不指定国家则为内战) 意识形态代码位于commonideologies 的文件里参考【附3】 annex [目标国家TAG] 吞并指定的国家) 例如：annex USA 或 annex d01
+
+nocb 外交无条件
+
+add_opinion [国家TAG] 增加与指定国家的关系
+
+ale # 增加“所有”高级装备(默认10000)
+
+ae [装备数量] [装备名称] 增加指定数量的装备/设备
+
+tag_color 设置一个国家颜色(测试)
+
+aiview 激活 AI 调试信息
+
+PrintSynchStuff 显示RandomCount和RandomSeed
+
+SetRandomCount # 设置RandomCount的值为0或#(#为数字)
+
+collision 开/关 显示调试线条
+
+savecheck 生成一个存档文件 (Test_01)并载入存档生成一个存档文件 (Test_02) (两个存档文件一模一样)
+
+IP 显示IP(一串数字)
+
+nudge 微调工具
+
+mapmode [Mapmode type (int)] 修改地图模式
+
+reloadweather [randomseed] 重新载入和初始化天气(基于RandomSeed的值)
+
+nomapicons 开/关 地图图标
+
+nopausetext 开/关 截图时无暂停信息
+
+fronts 开/关 显示 外国信息
+
+traderoutes 开/关 显示 贸易路线
+
+debug_tactics 开/关 显示 调试工具提示信息
+
+reload 载入文件名
+
+savegame 存档
+
+fullscreen 开/关 全屏
+
+prices 价格信息
+
+error 显示日志中错误信息
+
+version 显示当前游戏版本
+
+trigger_docs(effect_docs) 将 triggers/effects 输出到日志文件game.log
+
+helplog 将所有的控制台命令输出到game.log文件
+
+help [command name] 显示所有命令(或对某一命令的说明)
+
+helphelp 显示当前帮助信息
+
+time 显示当前时间
+
+reloadfx [map/mapname/postfx 或 *.fx filename] 重新加载着色器
+
+particle_editor 粒子编辑器
+
+nextsong 切换到下一个音乐
+
+window [参数: open/close] [window gui name] wnd 打开或关闭 指定窗口
+
+reloadinterface 重新载入界面
+
+reloadtechnologies 重新载入科技数据库
+
+updateequipments 重新载入装备数据库
+
+updatesubunits 重新载入下级单位数据库
+
+reloadoob 重新载入OOBs update_loc [localization tag] 重新载入目标文件
+
+run 运行带指令的制定文件
+
+observe 进入观察者模式
+
+
+
+一些常用的装备名：
+
+　　炮 artillery_equipment；AT anti_tank_equipment；AA anti_air_equipment；
+
+　　战列舰就是battleship
+
+　　运输船就是convoy
+
+　　航母就是carrier
+
+　　制导导弹 guided_missile_equipment
+
+　　重型航母heavy_cruiser
+
+　　驱逐舰destroyer
+
+　　机械化motorized_equipment
+
+　　轻型航母light_cruiser
+
+　　潜艇submarine
+
+　　四种坦克 super_heavy_tank_equipment和heavy_tank_equipment和light_tank_equipment和medium_tank_equipment
+
+　　现代坦克modern_tank_equipment
+
+　　重巡洋舰heavy_cruiser
+
+事件代码：
+指令用法
+
+　　event political.16
+
+ace_promoted.1 [王牌飞行员晋升]
+
+ace_promoted.2 [王牌飞行员出现]
+
+ace_promoted.3 王牌飞行员死亡
+
+ace_promoted.4 王牌飞行员死亡
+
+ace_promoted.5 王牌飞行员死亡
+
+baltic.5 [共产者掌权](是否加入共产国际阵营)
+
+britain.11 [柏林-莫斯科轴心] (法国等国家可以选择直接提前加入同盟国阵营，如果你玩德国会觉得有挑战性)
+
+britain.12 [伟大的联盟](是否加入同盟国阵营)
+
+britain.13 [法兰西想要加入同盟国]
+
+britain.17 [国王爱德华八世退位](国家凝聚力+15.00%)
+
+britain.18 [国王归来](国家凝聚力+5.00%，意识形态变化抵制力度+50.0%)(基本是只有凝聚力加成)
+
+britain.20 [阿扎德领导印度人民反抗] (法西斯主义支持者发起了一场内战)(可以的，这很有趣)
+
+china.1 [卢沟桥事变]
+
+china.15 [在某某XX战胜](政治点数+100，获得国家凝聚力基数+5.00%)
+
+china.17 [在某某XX胜利](政治点数+100，获得国家凝聚力基数+5.00%)
+
+china.100 [中被再一次攻击了](创建阵营：抗日民族统一战线)
+
+china.108 [GCD必胜](获得20个师)(厉害啊!!!好强啊!!!暴兵的)
+
+election.4 [选举：让法西斯进GOV](法西斯主义支持率变化+10.00%)
+
+election.5 [选举：让共党进GOV](共产主义支持率变化+10.00%)
+
+election.5 [选举：民主势力成为少数派](选择法西斯或共产主义支持率变化+10.00%)
+
+election.11 [选举：法西斯赢得多数](选择法西斯主义党派执政或内战)
+
+election.12 [选举：GCD赢得多数](选择共产主义党派执政或内战)
+
+election.13 [选举：寡头青睐法西斯](法西斯主义支持率变化+15.00%)
+
+election.14 [选举：战时例外](获得国家凝聚力基数+5.00%)
+
+election.15 [选举：政权的夺取] (政治点数+25，获得国家凝聚力基数+5.00%，法西斯或共产主义支持率变化+7.00%)
+
+election.16 [某某得到了公众的支持](获得国家凝聚力基数+5.00%)
+
+election.17 跟16是反的
+
+france.11 [法国打算联盟] (选第一个选项可触发法国内战，维希法国和德国是一个阵营的。第二个选项法国被英国吞并)
+
+france.12 [英国同意联盟](法国被英国吞并)
+
+france.22 [讨论马蒂尼桑协定](获得国家凝聚力基数+5.00%)
+
+germany.4 [德奥合并](政治点数+75，全球紧张度+2.0，吞并奥地利)
+
+germany.55 [捷克斯洛伐克的命运](斯洛伐克国成为某某的傀儡)
+
+germany.56 [天鹅绒分离](吞并捷克斯洛伐克)
+
+germany.58 [波兰问题](政治点数+150)
+
+germany.61 [莱茵兰，厉兵秣马，重整军备](德法开战)
+
+germany.65 也是法国跟德国开战
+
+germany.71 [元首，殉国了] (海因里希·希姆或者戈林莱掌权)
+
+germany.75和76 加坦克科技研究的跟苏联关系好了
+
+germany.78 [德国带头进行联合航空研究](获得民主精神：德国空军的创新思维)(这个不错啊)
+
+germany.79 [来自德国的最后通牒](主要选项是土耳其成为德意志的傀儡或者一言不合就宣战)
+
+germany.88 [波兰拒绝交出但泽](向波兰宣战)
+
+germany.98 [南斯拉夫的命运] (政治点数-75，全球紧张度+7.0，吞并南斯拉夫或者全球紧张度+3.0，克罗地亚和南斯拉夫成为傀儡)
+
+germany.116 也是向波兰宣战
+
+greece.3 [希腊的命运](希腊成为德国的傀儡)
+
+italy.1 [阿尔巴利亚屈服了](吞并阿尔巴利亚，全球紧张度+2.0)
+
+italy.8 [加入法国的阵营](意大利加入法国领地(阵营))
+
+italy.12 [伦敦会议](意大利政治点数-100，创建阵营：新罗马帝国)
+
+japan.1 [卢沟桥事变](获得国家凝聚力基数+5.00%)
+
+japan.5 [苏联撤退](获得国家凝聚力基数+5.00%)
+
+japan.13 [暹罗接受最后通牒](暹罗成为某某的傀儡)
+
+japan.17 [中国投降](中华民国成为某某的傀儡)
+
+poland.1 [向东扩张](获得民主精神：法西斯主义的影响，获得苏联欧洲东边3块地的宣称)
+
+political.1 [共产主义的崛起].2.3.4.5.6.19都是关于共产主义的，.3.5.6可以加BUFF (.3和.6是恐怖统治：政治点数+10.00%，.5是共产主义游击队招募：适役人口-0.20%，共产主义理念每日新增支持率+0.05%)
+
+political.7 [法西斯主义崛起].8.9.10.11.12.18都是关于法西斯主义的，.9.10.11可以加BUFF (.9.10是恐怖统治：政治点数+10.00%，.11是法西斯突袭师：国家凝聚力-5.00%，适役人口-0.20%)
+
+political.13 [走向民主]16有个BUFF太坑爹了，不说这个.20的BUFF不错
+
+political.28 [某某恢复统一了](反正.26左右都是不怎么好，还会内战)
+
+romania.6 跟上面的差不多，但是BUFF不错可以选择无任何效果的第三选项
+
+soviet.6 [爱沙尼亚屈服了](某某吞并爱沙尼亚)
+
+soviet.8 [拉脱维亚屈服了](跟上面一样)
+
+soviet.10 [立陶宛屈服了](可以，这很苏联)
+
+soviet.16 [唐努图瓦的合并](鲸吞啊)
+
+soviet.25.26.27 各种加成 soviet.32.33.34.36 游戏直接崩了，连崩3次!!
+
+soviet.37 是减轻清洗惩罚
+
+soviet.38 进一步减轻惩罚
+
+spain.1 [内战爆发](自己打自己).2.3加政治点数
+
+spain.8 [收回马德里](能直接把马德里占领了还当成了首都)
+
+test.1.2 不知道是什么鬼，反正能加100点政治点数
+
+usa.1 [埃尔哈特想要参军](王牌一枚，政治点数-10)
+
+usa.6 [1936总统大选](非常厉害的BUFF：罗斯福新政)
+
+usa.7 [罗斯福对阵威尔基](第二选项BUFF：威尔基新政) (其实可先输入这个然后再.6.8，罗斯福新政就会加上来，.8和.6差不多也是罗斯福新政)
+
+国家TAG查看：
+
+tdebug 查看鼠标指定地区信息(包括tag)
+
+内战代码：
+
+fascism POL 法西斯在波兰发动战争
+
+democratic ITA 民*主党人在意大利发动战争
+
+fascism AST 共*产*党人将在澳大利亚发动战争
